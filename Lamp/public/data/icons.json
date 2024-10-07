@@ -71,6 +71,12 @@
             "title": "Ionicons",
             "url": "https://ionic.io/ionicons",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340176/ionicons.png"
+        },
+        {
+            "id": 13,
+            "title": "Feather",
+            "url": "https://feathericons.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340496/feathericons.webp"
         }
     ]
 }
