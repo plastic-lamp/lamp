@@ -2,21 +2,33 @@
     "components": [
         {
             "id": 1,
-            "title": "Item One",
-            "url": "https://example.com/item-one",
-            "image_url": "https://example.com/images/item-one.jpg"
+            "title": "shadcn/ui",
+            "url": "https://ui.shadcn.com",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/components/shadcn"
         },
         {
             "id": 2,
-            "title": "Item Two",
-            "url": "https://example.com/item-two",
-            "image_url": "https://example.com/images/item-two.jpg"
+            "title": "Radix UI",
+            "url": "https://www.radix-ui.com",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/components/radix"
         },
         {
             "id": 3,
-            "title": "Item Three",
-            "url": "https://example.com/item-three",
-            "image_url": "https://example.com/images/item-three.jpg"
+            "title": "NextUI",
+            "url": "https://nextui.org",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/v1703602206/freesets/components/toajvq9dzuq5b41zlhfn.webp"
+        },
+        {
+            "id": 4,
+            "title": "Float UI",
+            "url": "https://floatui.com",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/v1704376726/freesets/components/ztoak6hgzaj7oy0unfsh.webp"
+        },
+        {
+            "id": 5,
+            "title": "Tailblocks",
+            "url": "https://tailblocks.cc",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/v1703009391/freesets/components/tailblocks.cc__D-720_rg8avy.webp"
         }
     ]
 }
