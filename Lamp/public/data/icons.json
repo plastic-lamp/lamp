@@ -4,55 +4,55 @@
             "id": 1,
             "title": "Simple Icons",
             "url": "https://simpleicons.org/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336074/simpleicons.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728336074/simpleicons.webp"
         },
         {
             "id": 2,
             "title": "Radix Icons",
             "url": "https://www.radix-ui.com/icons",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336074/radixicons.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728336074/radixicons.webp"
         },
         {
             "id": 3,
             "title": "Lucide",
             "url": "https://lucide.dev/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336074/lucide.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728336074/lucide.webp"
         },
         {
             "id": 4,
             "title": "Tabler icons",
             "url": "https://tabler-icons.io/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336076/tablericons.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728336076/tablericons.webp"
         },
         {
             "id": 5,
             "title": "svgl",
             "url": "https://svgl.app/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336075/svgl.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728336075/svgl.webp"
         },
         {
             "id": 6,
             "title": "Bootstrap Icons",
             "url": "https://icons.getbootstrap.com/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337184/bootstrapicons.png"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728337184/bootstrapicons.png"
         },
         {
             "id": 7,
             "title": "SVG Repo",
             "url": "https://www.svgrepo.com/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337491/svgrepo.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728337491/svgrepo.webp"
         },
         {
             "id": 8,
             "title": "Mage Icons",
             "url": "https://mageicons.com/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337842/mageicons.png"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728337842/mageicons.png"
         },
         {
             "id": 9,
             "title": "Huge Icons",
             "url": "https://hugeicons.com/",
-            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728338250/hugeicons.png"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728338250/hugeicons.png"
         }
     ]
 }
