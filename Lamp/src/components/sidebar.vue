@@ -1,8 +1,8 @@
 <template>
-    <div class="sidebar">
+    <div class="sidebar" :class="{ expanded }">
         <div class="sidebar-logo">
             <RouterLink to="/" tabindex="-1">
-                <button active class="home-button">
+                <button class="home-button">
                     <span class="sidebar-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lamp"><path d="M8 2h8l4 10H4L8 2Z"/><path d="M12 12v6"/><path d="M8 22v-2c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v2H8Z"/></svg>
                     </span>
@@ -64,7 +64,7 @@
         </div>
         <div class="sidebar-gap"></div>
         <div class="sidebar-bottom">
-            <a class="open-button-container" tabindex="-1">
+            <a class="open-button-container" tabindex="-1" @click="toggleSidebar">
                 <button class="open-button">
                     <span class="sidebar-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-panel-right"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M15 3v18"/></svg>
@@ -72,7 +72,7 @@
                     <span class="sidebar-title">Open</span>
                 </button>
             </a>
-            <a class="close-button-container hidden" tabindex="-1">
+            <a class="close-button-container" tabindex="-1" @click="toggleSidebar">
                 <button class="close-button">
                     <span class="sidebar-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-panel-right-open"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M15 3v18"/><path d="m10 15-3-3 3-3"/></svg>
@@ -93,6 +93,21 @@
     </div>
 </template>
 
+<script>
+export default {
+    data() {
+        return {
+            expanded: false,
+        };
+    },
+    methods: {
+        toggleSidebar() {
+            this.expanded = !this.expanded;
+        },
+    },
+};
+</script>
+
 <style>
 .sidebar {
     justify-content: flex-start;
@@ -108,6 +123,46 @@
     /* overflow-x: hidden;
     overflow-y: auto;
     gap: 200px; */
+}
+
+.sidebar:not(.expanded) .close-button-container {
+    display: none !important;
+}
+
+.sidebar:not(.expanded) .open-button-container {
+    display: flex !important;
+}
+
+.sidebar.expanded .close-button-container {
+    display: flex !important;
+}
+
+.sidebar.expanded .open-button-container {
+    display: none !important;
+}
+
+.sidebar.expanded {
+    min-width: 224px;
+    max-width: 224px;
+}
+
+.sidebar.expanded .sidebar-logo a button,
+.sidebar.expanded .sidebar-top a button,
+.sidebar.expanded .sidebar-bottom a button {
+    min-width: 204px;
+    max-width: 204px;
+}
+
+.sidebar.expanded .sidebar-logo a button .sidebar-title,
+.sidebar.expanded .sidebar-top a button .sidebar-title,
+.sidebar.expanded .sidebar-bottom a button .sidebar-title {
+    display: flex;
+}
+
+.sidebar.expanded .sidebar-logo a button .sidebar-icon,
+.sidebar.expanded .sidebar-top a button .sidebar-icon,
+.sidebar.expanded .sidebar-bottom a button .sidebar-icon {
+    padding-right: 1.5px;
 }
 
 .sidebar .sidebar-logo {
@@ -204,22 +259,6 @@
     box-sizing: border-box;
 }
 
-.sidebar .sidebar-logo a button[active],
-.sidebar .sidebar-top a button[active],
-.sidebar .sidebar-bottom a button[active],
-.sidebar .sidebar-logo a button[active]:hover,
-.sidebar .sidebar-top a button[active]:hover,
-.sidebar .sidebar-bottom a button[active]:hover,
-.sidebar .sidebar-logo a button[active]:focus,
-.sidebar .sidebar-top a button[active]:focus,
-.sidebar .sidebar-bottom a button[active]:focus,
-.sidebar .sidebar-logo a button[active]:active,
-.sidebar .sidebar-top a button[active]:active,
-.sidebar .sidebar-bottom a button[active]:active {
-    background-color: #27272A;
-    color: rgba(250, 250, 250, 1);
-}
-
 .sidebar .sidebar-logo a button:hover,
 .sidebar .sidebar-top a button:hover,
 .sidebar .sidebar-bottom a button:hover,
@@ -282,6 +321,22 @@
     pointer-events: none;
     transition: all 0.0s ease 0.0s;
     stroke-width: 1.85px;
+}
+
+.sidebar .sidebar-logo a.router-link-exact-active button,
+.sidebar .sidebar-top a.router-link-exact-active button,
+.sidebar .sidebar-bottom a.router-link-exact-active button,
+.sidebar .sidebar-logo a.router-link-exact-active button:hover,
+.sidebar .sidebar-top a.router-link-exact-active button:hover,
+.sidebar .sidebar-bottom a.router-link-exact-active button:hover,
+.sidebar .sidebar-logo a.router-link-exact-active button:focus,
+.sidebar .sidebar-top a.router-link-exact-active button:focus,
+.sidebar .sidebar-bottom a.router-link-exact-active button:focus,
+.sidebar .sidebar-logo a.router-link-exact-active button:active,
+.sidebar .sidebar-top a.router-link-exact-active button:active,
+.sidebar .sidebar-bottom a.router-link-exact-active button:active {
+    background-color: #27272A;
+    color: rgba(250, 250, 250, 1);
 }
 </style>
 
