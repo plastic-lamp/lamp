@@ -29,6 +29,12 @@
             "title": "svgl",
             "url": "https://svgl.app/",
             "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336075/svgl.webp"
+        },
+        {
+            "id": 6,
+            "title": "Bootstrap Icons",
+            "url": "https://icons.getbootstrap.com/",
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337184/bootstrapicons.png"
         }
     ]
 }
