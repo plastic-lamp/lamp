@@ -83,8 +83,8 @@
             <a tabindex="-1">
                 <button class="theme-button">
                     <span class="sidebar-icon">
-                        <svg class="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
-                        <svg class="light-mode-icon hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                        <svg class="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                        <svg class="light-mode-icon hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
                     </span>
                     <span class="sidebar-title">Dark Mode</span>
                 </button>
@@ -92,4 +92,196 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.sidebar {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-width: 64px;
+    max-width: 64px;
+    height: 100%;
+    border-right: 1px solid #27272A;
+    transition: all 0.0s ease 0.0s;
+    /* overflow-x: hidden;
+    overflow-y: auto;
+    gap: 200px; */
+}
+
+.sidebar .sidebar-logo {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    height: fit-content;
+    width: 100%;
+    gap: 8px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #27272A;
+}
+
+.sidebar .sidebar-top {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    height: fit-content;
+    width: 100%;
+    gap: 8px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #27272A;
+}
+
+.sidebar .sidebar-gap {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar .sidebar-bottom {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 100%;
+    gap: 8px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-top: 1px solid #27272A;
+}
+
+.sidebar .sidebar-logo a,
+.sidebar .sidebar-top a,
+.sidebar .sidebar-bottom a {
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.0s ease 0.0s;
+}
+
+.sidebar .sidebar-logo a:focus,
+.sidebar .sidebar-top a:focus,
+.sidebar .sidebar-bottom a:focus {
+    outline: none;
+    border: none;
+}
+
+.sidebar .sidebar-logo a button,
+.sidebar .sidebar-top a button,
+.sidebar .sidebar-bottom a button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border: none;
+    outline: none;
+    min-height: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    min-height: 44px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+    color: rgba(250, 250, 250, 0.9);
+    cursor: pointer;
+    transition: all 0.0s ease 0.0s;
+    box-sizing: border-box;
+}
+
+.sidebar .sidebar-logo a button[active],
+.sidebar .sidebar-top a button[active],
+.sidebar .sidebar-bottom a button[active],
+.sidebar .sidebar-logo a button[active]:hover,
+.sidebar .sidebar-top a button[active]:hover,
+.sidebar .sidebar-bottom a button[active]:hover,
+.sidebar .sidebar-logo a button[active]:focus,
+.sidebar .sidebar-top a button[active]:focus,
+.sidebar .sidebar-bottom a button[active]:focus,
+.sidebar .sidebar-logo a button[active]:active,
+.sidebar .sidebar-top a button[active]:active,
+.sidebar .sidebar-bottom a button[active]:active {
+    background-color: #27272A;
+    color: rgba(250, 250, 250, 1);
+}
+
+.sidebar .sidebar-logo a button:hover,
+.sidebar .sidebar-top a button:hover,
+.sidebar .sidebar-bottom a button:hover,
+.sidebar .sidebar-logo a button:focus,
+.sidebar .sidebar-top a button:focus,
+.sidebar .sidebar-bottom a button:focus,
+.sidebar .sidebar-logo a button:active,
+.sidebar .sidebar-top a button:active,
+.sidebar .sidebar-bottom a button:active {
+    background-color: rgb(39, 39, 42, 0.4);
+    color: rgba(250, 250, 250, 0.95);
+}
+
+.sidebar .sidebar-logo a button .sidebar-title,
+.sidebar .sidebar-top a button .sidebar-title,
+.sidebar .sidebar-bottom a button .sidebar-title {
+    display: none;
+    min-width: 158.5px;
+    max-width: 158.5px;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    color: inherit;
+    height: 44px;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 350;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.0s ease 0.0s;
+}
+
+.sidebar .sidebar-logo a button .sidebar-icon,
+.sidebar .sidebar-top a button .sidebar-icon,
+.sidebar .sidebar-bottom a button .sidebar-icon {
+    min-height: 44px;
+    max-height: 44px;
+    min-width: 44px;
+    min-width: 44px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    transition: all 0.0s ease 0.0s;
+}
+
+.sidebar .sidebar-logo a button .sidebar-icon svg,
+.sidebar .sidebar-top a button .sidebar-icon svg,
+.sidebar .sidebar-bottom a button .sidebar-icon svg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    min-height: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    color: inherit;
+    user-select: none;
+    pointer-events: none;
+    transition: all 0.0s ease 0.0s;
+    stroke-width: 1.85px;
+}
+</style>
 

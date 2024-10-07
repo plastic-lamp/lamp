@@ -12,16 +12,15 @@
   display: flex;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+.hidden {
+  display: none !important;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.tippy-box {
+  background-color: #09090B;
+  color: rgba(250, 250, 250, 1);
+  border-radius: 6px;
+  border: 1px solid #27272A;
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
 }
