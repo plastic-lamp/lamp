@@ -2,15 +2,15 @@
     "typography": [
         {
             "id": 1,
-            "title": "Item One",
-            "url": "https://example.com/item-one",
-            "image_url": "https://example.com/images/item-one.jpg"
+            "title": "Google Fonts",
+            "url": "https://fonts.google.com/",
+            "image_url": "https://th.bing.com/th/id/R.c92cb62517ee69f96dd51b5cd81295fe?rik=yIFc336VTewMjQ&pid=ImgRaw&r=0"
         },
         {
             "id": 2,
             "title": "Item Two",
             "url": "https://example.com/item-two",
-            "image_url": "https://example.com/images/item-two.jpg"
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/typography/fontshare"
         },
         {
             "id": 3,
