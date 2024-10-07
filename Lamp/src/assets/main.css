@@ -85,7 +85,7 @@ body::-webkit-scrollbar {
   align-items: center;
   text-align: center;
   display: flex;
-  border-radius: 20px;
+  border-radius: 10px;
   text-decoration: none;
   outline: none;
   border: none;
@@ -132,14 +132,14 @@ body::-webkit-scrollbar {
   align-items: center;
   text-align: center;
   display: flex;
-  border-radius: 10px;
+  border-radius: 6px;
   outline: none;
   border: none;
   cursor: pointer;
   position: absolute;
-  top: 18px;
-  right: 18px;
-  background-color: rgba(39, 39, 42, 0.9);
+  top: 12px;
+  right: 12px;
+  background-color: rgba(39, 39, 42, 1);
   color: rgba(250, 250, 250, 1);
   backdrop-filter: blur(50px);
   display: none;
@@ -181,4 +181,19 @@ body::-webkit-scrollbar {
   font-weight: 450;
   display: none;
   transition: all 0.1s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .main .card-container .card-row {
+    width: 100%;
+    min-height: fit-content;
+    max-height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+    overflow: hidden;
+  }
 }
