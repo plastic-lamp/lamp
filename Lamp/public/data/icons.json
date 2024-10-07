@@ -89,6 +89,12 @@
             "title": "Iconbuddy",
             "url": "https://iconbuddy.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341097/iconbuddy.webp"
+        },
+        {
+            "id": 15,
+            "title": "3D Icons",
+            "url": "hhttps://3dicons.co/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341225/3dicons.jpg"
         }
     ]
 }
