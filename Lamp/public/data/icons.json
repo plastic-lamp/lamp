@@ -107,6 +107,12 @@
             "title": "Heroicons",
             "url": "https://heroicons.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341626/heroicons.webp"
+        },
+        {
+            "id": 19,
+            "title": "iconmonstr",
+            "url": "https://iconmonstr.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728342075/iconmonstr.webp"
         }
     ]
 }
