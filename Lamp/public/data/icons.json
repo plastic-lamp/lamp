@@ -53,6 +53,12 @@
             "title": "Huge Icons",
             "url": "https://hugeicons.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728338250/hugeicons.png"
+        },
+        {
+            "id": 10,
+            "title": "Noun Project",
+            "url": "https://thenounproject.com/icons/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728339427/nounproject.webp"
         }
     ]
 }
