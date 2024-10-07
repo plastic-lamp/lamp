@@ -8,9 +8,9 @@
         },
         {
             "id": 2,
-            "title": "Item Two",
-            "url": "https://example.com/item-two",
-            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/typography/fontshare"
+            "title": "Fontshare",
+            "url": "https://www.fontshare.com/",
+            "image_url": "https://www.fontshare.com/assets/images/share.f415a558.jpg"
         },
         {
             "id": 3,
