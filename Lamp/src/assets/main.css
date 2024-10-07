@@ -184,6 +184,15 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 1024px) {
+  .main .card-container {
+    padding: 27px;
+    gap: 18px;
+  }
+  
+  .main .card-container .card-row {
+    gap: 18px;
+  }
+
   .main .card-container .card-row {
     width: 100%;
     min-height: fit-content;
