@@ -94,13 +94,19 @@
             "id": 16,
             "title": "3D Icons",
             "url": "hhttps://3dicons.co/",
-            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341225/3dicons.jpg"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341713/3dicons.webp"
         },
         {
             "id": 17,
             "title": "Majesticons",
             "url": "https://www.majesticons.com/",
-            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341376/majesticons.png"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341770/majesticons.webp"
+        },
+        {
+            "id": 18,
+            "title": "Heroicons",
+            "url": "https://heroicons.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341626/heroicons.webp"
         }
     ]
 }
