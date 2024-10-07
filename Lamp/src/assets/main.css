@@ -1,5 +1,4 @@
 @import './base.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 #app {
   justify-content: center;
@@ -23,4 +22,14 @@
   border: 1px solid #27272A;
   margin-left: 10px;
   font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: calc(100% - 64px);
+  height: 100%;
+  transition: all 0.0s ease 0.0s;
 }
