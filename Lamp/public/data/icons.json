@@ -17,6 +17,12 @@
             "title": "Lucide",
             "url": "https://lucide.dev/",
             "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/jn6a97pgfb9sq4pa2tzn"
+        },
+        {
+            "id": 4,
+            "title": "Tabler icons",
+            "url": "https://tabler-icons.io/",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/tabler"
         }
     ]
 }
