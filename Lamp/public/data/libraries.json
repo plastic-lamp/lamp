@@ -2,21 +2,9 @@
     "libraries": [
         {
             "id": 1,
-            "title": "Item One",
-            "url": "https://example.com/item-one",
-            "image_url": "https://example.com/images/item-one.jpg"
-        },
-        {
-            "id": 2,
-            "title": "Item Two",
-            "url": "https://example.com/item-two",
-            "image_url": "https://example.com/images/item-two.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Item Three",
-            "url": "https://example.com/item-three",
-            "image_url": "https://example.com/images/item-three.jpg"
+            "title": "anime.js",
+            "url": "https://animejs.com/",
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336687/animejs.webp"
         }
     ]
 }
