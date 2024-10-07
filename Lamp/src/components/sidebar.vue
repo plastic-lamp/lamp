@@ -93,7 +93,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .sidebar {
     justify-content: flex-start;
     flex-direction: column;
