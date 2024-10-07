@@ -43,7 +43,8 @@
 
 .main .card-container .card-row {
   width: 100%;
-  height: fit-content;
+  min-height: fit-content;
+  max-height: fit-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
