@@ -23,6 +23,12 @@
             "title": "Tabler icons",
             "url": "https://tabler-icons.io/",
             "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/tabler"
+        },
+        {
+            "id": 5,
+            "title": "svgl",
+            "url": "https://svgl.app/",
+            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/svgl"
         }
     ]
 }
