@@ -4,31 +4,31 @@
             "id": 1,
             "title": "Simple Icons",
             "url": "https://simpleicons.org/",
-            "image_url": "/data/thumbnails/icons/simpleicons.webp"
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336074/simpleicons.webp"
         },
         {
             "id": 2,
             "title": "Radix Icons",
             "url": "https://www.radix-ui.com/icons",
-            "image_url": "/data/thumbnails/icons/radixicons.webp"
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336074/radixicons.webp"
         },
         {
             "id": 3,
             "title": "Lucide",
             "url": "https://lucide.dev/",
-            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/jn6a97pgfb9sq4pa2tzn"
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336074/lucide.webp"
         },
         {
             "id": 4,
             "title": "Tabler icons",
             "url": "https://tabler-icons.io/",
-            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/tabler"
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336076/tablericons.webp"
         },
         {
             "id": 5,
             "title": "svgl",
             "url": "https://svgl.app/",
-            "image_url": "https://res.cloudinary.com/cosmocloudinary/image/upload/freesets/icons/svgl"
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728336075/svgl.webp"
         }
     ]
 }
