@@ -36,7 +36,7 @@
   align-items: center;
   text-align: center;
   overflow-y: auto;
-  overflow-y: hidden;
+  overflow-x: hidden;
   box-sizing: border-box;
   gap: 26px;
 }
