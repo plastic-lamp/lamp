@@ -23,6 +23,12 @@
             "title": "Float UI",
             "url": "https://floatui.com",
             "image_url": "https://floatui.com/thumbnail.png?v2"
+        },
+        {
+            "id": 5,
+            "title": "Headless UI",
+            "url": "https://headlessui.com/",
+            "image_url": "https://headlessui.com/_next/static/media/social-card.46834755.jpg"
         }
     ]
 }
