@@ -65,6 +65,12 @@
             "title": "Eva Icons",
             "url": "https://akveo.github.io/eva-icons/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340005/evaicons.webp"
+        },
+        {
+            "id": 12,
+            "title": "Ionicons",
+            "url": "https://ionic.io/ionicons",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340176/ionicons.png"
         }
     ]
 }
