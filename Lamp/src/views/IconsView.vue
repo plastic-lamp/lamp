@@ -19,7 +19,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import iconsData from '@/data/icons.json';
+import iconsData from '/public/data/icons.json';
 
 const icons = ref(iconsData.icons);
 

@@ -19,7 +19,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import componentsData from '@/data/components.json';
+import componentsData from '/public/data/components.json';
 
 const components = ref(componentsData.components);
 

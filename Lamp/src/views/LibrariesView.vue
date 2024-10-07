@@ -19,7 +19,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import librariesData from '@/data/libraries.json';
+import librariesData from '/public/data/libraries.json';
 
 const libraries = ref(librariesData.libraries);
 

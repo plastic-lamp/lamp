@@ -19,7 +19,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import typographyData from '@/data/typography.json';
+import typographyData from '/public/data/typography.json';
 
 const typography = ref(typographyData.typography);
 
