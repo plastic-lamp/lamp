@@ -47,6 +47,12 @@
             "title": "Mage Icons",
             "url": "https://mageicons.com/",
             "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337842/mageicons.png"
+        },
+        {
+            "id": 9,
+            "title": "Huge Icons",
+            "url": "https://hugeicons.com/",
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728338250/hugeicons.png"
         }
     ]
 }
