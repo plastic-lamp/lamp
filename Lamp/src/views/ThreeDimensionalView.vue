@@ -41,7 +41,7 @@ const cardRows = computed(() => {
     margin: 0;
     width: fit-content;
     height: fit-content;
-    font-size: 44px;
+    font-size: 32px;
     align-items: center;
     justify-content: center;
     text-align: center;

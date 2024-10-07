@@ -10,7 +10,7 @@
     margin: 0;
     width: fit-content;
     height: fit-content;
-    font-size: 84px;
+    font-size: 64px;
     align-items: center;
     justify-content: center;
     text-align: center;
