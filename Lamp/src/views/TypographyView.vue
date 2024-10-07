@@ -16,14 +16,14 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import iconsData from '@/data/icons.json';
+import typographyData from '@/data/typography.json';
 
-const icons = ref(iconsData.icons);
+const typography = ref(typographyData.typography);
 
 const cardRows = computed(() => {
   const rows = [];
-  for (let i = 0; i < icons.value.length; i += 3) {
-    rows.push(icons.value.slice(i, i + 3));
+  for (let i = 0; i < typography.value.length; i += 3) {
+    rows.push(typography.value.slice(i, i + 3));
   }
   return rows;
 });
