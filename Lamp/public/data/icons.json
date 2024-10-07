@@ -35,6 +35,12 @@
             "title": "Bootstrap Icons",
             "url": "https://icons.getbootstrap.com/",
             "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337184/bootstrapicons.png"
+        },
+        {
+            "id": 7,
+            "title": "SVG Repo",
+            "url": "https://www.svgrepo.com/",
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337491/svgrepo.webp"
         }
     ]
 }
