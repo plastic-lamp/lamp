@@ -5,6 +5,7 @@ import TypographyView from '../views/TypographyView.vue'
 import ThreeDimensionalView from '../views/ThreeDimensionalView.vue'
 import LibrariesView from '../views/LibrariesView.vue'
 import ComponentsView from '../views/ComponentsView.vue'
+import PageNotFoundView from '@/views/PageNotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,15 @@ const router = createRouter({
       path: '/components',
       name: 'components',
       component: ComponentsView
+    },
+    {
+      path: '/404',
+      name: '404',
+      component: PageNotFoundView
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/404'
     }
   ]
 })
@@ -49,16 +59,17 @@ const routeTitles = {
   typography: 'Lamp - Typography',
   '3d': 'Lamp - 3D',
   libraries: 'Lamp - Libraries',
-  components: 'Lamp - Components'
+  components: 'Lamp - Components',
+  '404': 'Lamp - 404'
 }
 
 // Use beforeEach route guard to set the page title
 router.beforeEach((to, from, next) => {
-  // Get the matched route name
-  const matchedRoute = to.name
+  // Check if the route exists
+  const matchedRoute = to.matched.length ? to.name : '404'
 
   // Set the document title
-  document.title = routeTitles[matchedRoute] || 'Lamp - Page Not Found'
+  document.title = routeTitles[matchedRoute] || 'Lamp - 404'
 
   // Continue with the navigation
   next()
