@@ -77,6 +77,12 @@
             "title": "Feather Icons",
             "url": "https://feathericons.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340668/feathericons.webp"
+        },
+        {
+            "id": 14,
+            "title": "Font Awesome",
+            "url": "https://fontawesome.com/icons",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340857/fontawesome.webp"
         }
     ]
 }
