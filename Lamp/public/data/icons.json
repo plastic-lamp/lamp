@@ -91,10 +91,16 @@
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341097/iconbuddy.webp"
         },
         {
-            "id": 15,
+            "id": 16,
             "title": "3D Icons",
             "url": "hhttps://3dicons.co/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341225/3dicons.jpg"
+        },
+        {
+            "id": 17,
+            "title": "3D Icons",
+            "url": "hhttps://3dicons.co/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341376/majesticons.png"
         }
     ]
 }
