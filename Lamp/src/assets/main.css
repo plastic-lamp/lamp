@@ -139,7 +139,7 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 18px;
   right: 18px;
-  background-color: rgba(39, 39, 42, 0.85);
+  background-color: rgba(39, 39, 42, 0.9);
   color: rgba(250, 250, 250, 1);
   backdrop-filter: blur(50px);
   display: none;
