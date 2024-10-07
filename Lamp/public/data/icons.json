@@ -83,6 +83,12 @@
             "title": "Font Awesome",
             "url": "https://fontawesome.com/icons",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728340857/fontawesome.webp"
+        },
+        {
+            "id": 15,
+            "title": "Iconbuddy",
+            "url": "https://iconbuddy.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728341097/iconbuddy.webp"
         }
     ]
 }
