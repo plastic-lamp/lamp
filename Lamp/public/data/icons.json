@@ -41,6 +41,12 @@
             "title": "SVG Repo",
             "url": "https://www.svgrepo.com/",
             "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337491/svgrepo.webp"
+        },
+        {
+            "id": 8,
+            "title": "Mage Icons",
+            "url": "https://mageicons.com/",
+            "image_url": "https://res.cloudinary.com/dwjtymp2y/image/upload/v1728337842/mageicons.png"
         }
     ]
 }
