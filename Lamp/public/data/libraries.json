@@ -41,6 +41,12 @@
             "title": "Locomotive Scroll",
             "url": "https://locomotivemtl.github.io/locomotive-scroll/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423279/locomotivescroll.webp"
+        },
+        {
+            "id": 8,
+            "title": "COBE",
+            "url": "https://cobe.vercel.app/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423453/cobe.webp"
         }
     ]
 }
