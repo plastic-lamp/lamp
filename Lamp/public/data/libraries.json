@@ -13,10 +13,16 @@
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728415065/swiperjs.webp"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Chart.js",
             "url": "https://www.chartjs.org/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728419346/chartjs.webp"
+        },
+        {
+            "id": 4,
+            "title": "Floating UI",
+            "url": "https://floating-ui.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420217/floatingui.webp"
         }
     ]
 }
