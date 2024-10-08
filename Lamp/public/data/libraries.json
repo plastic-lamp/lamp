@@ -35,6 +35,12 @@
             "title": "Plyr",
             "url": "https://plyr.io/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423080/plyr.webp"
+        },
+        {
+            "id": 7,
+            "title": "Locomotive Scroll",
+            "url": "https://locomotivemtl.github.io/locomotive-scroll/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423279/locomotivescroll.webp"
         }
     ]
 }
