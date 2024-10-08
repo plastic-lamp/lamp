@@ -77,12 +77,12 @@
             "title": "Chakra UI",
             "url": "https://v2.chakra-ui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728421750/chakraui.webp"
-        },
-        {
+        }
+        /*{
             "id": 14,
             "title": "daisyUI",
             "url": "https://daisyui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420775/daisy-ui.webp"
-        }
+        }*/
     ]
 }
