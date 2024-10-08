@@ -65,6 +65,12 @@
             "title": "VueTippy",
             "url": "https://vue-tippy.netlify.app/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728424227/vuetippy.webp"
+        },
+        {
+            "id": 12,
+            "title": "React Hot Toast",
+            "url": "https://react-hot-toast.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728424385/react-hot-toast.webp"
         }
     ]
 }
