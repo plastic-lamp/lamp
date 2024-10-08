@@ -41,6 +41,12 @@
             "title": "Melt UI",
             "url": "https://melt-ui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412344/meltui.webp"
+        },
+        {
+            "id": 8,
+            "title": "Magic UI",
+            "url": "https://magicui.design/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412547/magicui.webp"
         }
     ]
 }
