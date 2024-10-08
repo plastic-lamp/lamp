@@ -65,6 +65,12 @@
             "title": "grommet",
             "url": "https://v2.grommet.io/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420398/grommet.webp"
+        },
+        {
+            "id": 12,
+            "title": "daisyUI",
+            "url": "https://daisyui.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420565/daisyui.webp"
         }
     ]
 }
