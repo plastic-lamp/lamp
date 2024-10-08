@@ -28,7 +28,7 @@
             "id": 5,
             "title": "Headless UI",
             "url": "https://headlessui.com/",
-            "image_url": "https://headlessui.com/_next/static/media/social-card.46834755.jpg"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728413656/headlessui.webp"
         },
         {
             "id": 6,
@@ -40,7 +40,7 @@
             "id": 7,
             "title": "Melt UI",
             "url": "https://melt-ui.com/",
-            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412344/meltui.webp"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728413582/meltui.webp"
         },
         {
             "id": 8,
