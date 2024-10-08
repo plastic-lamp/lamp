@@ -53,6 +53,12 @@
             "title": "TypeIt",
             "url": "https://www.typeitjs.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423738/typeit.webp"
+        },
+        {
+            "id": 10,
+            "title": "Tippy.js",
+            "url": "https://atomiks.github.io/tippyjs/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728424060/tippy.webp"
         }
     ]
 }
