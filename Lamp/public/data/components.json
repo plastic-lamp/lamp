@@ -29,6 +29,12 @@
             "title": "Headless UI",
             "url": "https://headlessui.com/",
             "image_url": "https://headlessui.com/_next/static/media/social-card.46834755.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Sonner",
+            "url": "https://sonner.emilkowal.ski/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412210/sonner.webp"
         }
     ]
 }
