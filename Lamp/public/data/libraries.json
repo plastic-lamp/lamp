@@ -23,6 +23,12 @@
             "title": "Floating UI",
             "url": "https://floating-ui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420217/floatingui.webp"
+        },
+        {
+            "id": 5,
+            "title": "Vidstack",
+            "url": "https://www.vidstack.io/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728422953/vidstack.webp"
         }
     ]
 }
