@@ -71,6 +71,12 @@
             "title": "daisyUI",
             "url": "https://daisyui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420775/daisy-ui.webp"
+        },
+        {
+            "id": 13,
+            "title": "Pico CSS",
+            "url": "https://picocss.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728421574/picocss.webp"
         }
     ]
 }
