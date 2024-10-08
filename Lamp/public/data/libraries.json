@@ -29,6 +29,12 @@
             "title": "Vidstack",
             "url": "https://www.vidstack.io/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728422953/vidstack.webp"
+        },
+        {
+            "id": 6,
+            "title": "Plyr",
+            "url": "https://plyr.io/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423080/plyr.webp"
         }
     ]
 }
