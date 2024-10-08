@@ -11,6 +11,12 @@
             "title": "Swiper",
             "url": "https://swiperjs.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728415065/swiperjs.webp"
+        },
+        {
+            "id": 2,
+            "title": "Chart.js",
+            "url": "https://www.chartjs.org/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728419346/chartjs.webp"
         }
     ]
 }
