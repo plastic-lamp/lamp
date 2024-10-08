@@ -59,6 +59,12 @@
             "title": "Tippy.js",
             "url": "https://atomiks.github.io/tippyjs/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728424060/tippy.webp"
+        },
+        {
+            "id": 11,
+            "title": "VueTippy",
+            "url": "https://vue-tippy.netlify.app/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728424227/vuetippy.webp"
         }
     ]
 }
