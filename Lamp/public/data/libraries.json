@@ -5,6 +5,12 @@
             "title": "anime.js",
             "url": "https://animejs.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728336937/animejs.webp"
+        },
+        {
+            "id": 2,
+            "title": "Swiper",
+            "url": "https://swiperjs.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414944/swiper.webp"
         }
     ]
 }
