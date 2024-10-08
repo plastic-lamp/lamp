@@ -2,21 +2,9 @@
     "typography": [
         {
             "id": 1,
-            "title": "Google Fonts",
-            "url": "https://fonts.google.com/",
-            "image_url": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png"
-        },
-        {
-            "id": 2,
-            "title": "Fontshare",
-            "url": "https://www.fontshare.com/",
-            "image_url": "https://www.fontshare.com/assets/images/share.f415a558.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Item Three",
-            "url": "https://example.com/item-three",
-            "image_url": "https://example.com/images/item-three.jpg"
+            "title": "",
+            "url": "",
+            "image_url": ""
         }
     ]
 }
