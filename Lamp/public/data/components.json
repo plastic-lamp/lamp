@@ -53,6 +53,12 @@
             "title": "Hyper UI",
             "url": "https://www.hyperui.dev/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414593/hyperui.webp"
+        },
+        {
+            "id": 10,
+            "title": "UIkit",
+            "url": "https://getuikit.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728419768/uikit.webp"
         }
     ]
 }
