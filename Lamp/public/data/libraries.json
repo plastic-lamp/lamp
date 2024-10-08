@@ -47,6 +47,12 @@
             "title": "COBE",
             "url": "https://cobe.vercel.app/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423453/cobe.webp"
+        },
+        {
+            "id": 9,
+            "title": "TypeIt",
+            "url": "https://www.typeitjs.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728423738/typeit.webp"
         }
     ]
 }
