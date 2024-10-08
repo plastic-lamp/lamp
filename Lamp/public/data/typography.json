@@ -2,9 +2,9 @@
     "typography": [
         {
             "id": 1,
-            "title": "",
-            "url": "",
-            "image_url": ""
+            "title": "UNCUT.wtf",
+            "url": "https://uncut.wtf/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728415949/uncut.webp"
         }
     ]
 }
