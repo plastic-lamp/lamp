@@ -47,6 +47,12 @@
             "title": "Magic UI",
             "url": "https://magicui.design/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412547/magicui.webp"
+        },
+        {
+            "id": 9,
+            "title": "Hyper UI",
+            "url": "https://www.hyperui.dev/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414593/hyperui.webp"
         }
     ]
 }
