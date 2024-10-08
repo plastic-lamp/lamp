@@ -71,6 +71,12 @@
             "title": "React Hot Toast",
             "url": "https://react-hot-toast.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728424385/react-hot-toast.webp"
+        },
+        {
+            "id": 13,
+            "title": "Emojify",
+            "url": "https://open-emojify.github.io/emojify/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728428423/openemojify.webp"
         }
     ]
 }
