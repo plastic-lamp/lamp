@@ -1,6 +1,5 @@
 # lamp
-Lamp is a curated collection of open-source web assets for developers.
-[Website](https://plastic-lamp.netlify.app/)
+[Lamp](https://plastic-lamp.netlify.app/) is a curated collection of open-source web assets for developers.
 
 ## License
 
