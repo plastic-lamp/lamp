@@ -142,6 +142,7 @@ body::-webkit-scrollbar {
   background-color: rgba(39, 39, 42, 1);
   color: rgba(250, 250, 250, 1);
   backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   display: none;
   transition: all 0.1s ease;
 }
