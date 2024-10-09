@@ -5,6 +5,24 @@
             "title": "UNCUT.wtf",
             "url": "https://uncut.wtf/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728416171/uncutwtf.webp"
+        },
+        {
+            "id": 2,
+            "title": "Free Faces",
+            "url": "https://www.freefaces.gallery/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728481406/freefaces.webp"
+        },
+        {
+            "id": 3,
+            "title": "Fontshare",
+            "url": "https://www.fontshare.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728481405/fontshare.webp"
+        },
+        {
+            "id": 4,
+            "title": "Google Fonts",
+            "url": "https://fonts.google.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728481541/googlefonts.webp"
         }
     ]
 }
