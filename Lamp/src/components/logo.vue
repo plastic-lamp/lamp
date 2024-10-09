@@ -1,6 +1,6 @@
 <template>
     <div class="logo-container">
-        <img src="/lamp.png" alt="Lamp">
+        <img src="https://res.cloudinary.com/plastic-lamp/image/upload/v1728484100/lamp.webp" alt="Lamp">
     </div>
 </template>
 
