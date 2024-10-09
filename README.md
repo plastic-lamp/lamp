@@ -1,5 +1,8 @@
 # lamp
-[Lamp](https://plastic-lamp.netlify.app/) is a curated collection of open-source web assets for developers.
+<div align="left">Lamp is a curated collection of open-source web assets for developers.</div>
+<div align="left">
+
+[Website](https://open-emojify.github.io/emojify/)  
 
 ## License
 
