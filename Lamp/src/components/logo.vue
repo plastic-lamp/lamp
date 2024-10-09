@@ -1,20 +1,8 @@
 <template>
     <div class="logo-container">
-        <img :src="lampSrc" alt="Lamp">
+        <img src="/lamp.png" alt="Lamp">
     </div>
 </template>
-
-<script>
-import lampSrc from '@/assets/lamp.png';
-
-export default {
-    data() {
-        return {
-            lampSrc
-        };
-    }
-};
-</script>
 
 <style scoped>
 .logo-container {
