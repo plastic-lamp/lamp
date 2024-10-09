@@ -53,14 +53,6 @@
                     <span class="sidebar-title">Components</span>
                 </button>
             </RouterLink>
-            <!--<a href="https://ko-fi.com/brick_wall" target="_blank" tabindex="-1">
-                <button class="support-button" v-tippy="{ content: 'Support' }">
-                    <span class="sidebar-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>
-                    </span>
-                    <span class="sidebar-title">Support</span>
-                </button>
-            </a>-->
         </div>
         <div class="sidebar-gap"></div>
         <div class="sidebar-bottom">
@@ -80,15 +72,6 @@
                     <span class="sidebar-title">Close</span>
                 </button>
             </a>
-            <!--<a tabindex="-1">
-                <button class="theme-button" v-tippy="{ content: 'Theme' }">
-                    <span class="sidebar-icon">
-                        <svg class="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
-                        <svg class="light-mode-icon hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-                    </span>
-                    <span class="sidebar-title">Dark Mode</span>
-                </button>
-            </a>-->
             <a href="https://github.com/plastic-lamp/lamp" target="_blank" tabindex="-1">
                 <button class="github-button" v-tippy="{ content: 'Github' }">
                     <span class="sidebar-icon">

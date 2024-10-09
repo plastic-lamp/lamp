@@ -61,7 +61,8 @@ body::-webkit-scrollbar {
 
 .main .card-container .card-row .empty-card {
   width: 100%;
-  aspect-ratio: 16 / 8.6; /* Maintain a 16:8 aspect ratio */
+  aspect-ratio: 16 / 8.6; /* Maintain a 16:8.6 aspect ratio */
+  min-height: calc(100% * (8.6 / 16));
   overflow: hidden;
   justify-content: center;
   align-items: center;
@@ -79,7 +80,8 @@ body::-webkit-scrollbar {
 
 .main .card-container .card-row .card {
   width: 100%;
-  aspect-ratio: 16 / 8.6; /* Maintain a 16:8 aspect ratio */
+  aspect-ratio: 16 / 8.6; /* Maintain a 16:8.6 aspect ratio */
+  min-height: calc(100% * (8.6 / 16));
   overflow: hidden;
   justify-content: center;
   align-items: center;
@@ -89,10 +91,10 @@ body::-webkit-scrollbar {
   text-decoration: none;
   outline: none;
   border: none;
-  position: relative;
   border: 1px solid #27272A;
   object-fit: cover;
   transition: all 0.1s ease;
+  position: relative;
 }
 
 .main .card-container .card-row .card:hover .card-btn,
