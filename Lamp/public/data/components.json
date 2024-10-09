@@ -83,6 +83,12 @@
             "title": "Tailwind CSS",
             "url": "https://tailwindcss.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728426816/tailwindcss.webp"
+        },
+        {
+            "id": 15,
+            "title": "Bootstrap",
+            "url": "https://getbootstrap.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728483423/bootstrap.webp"
         }
     ]
 }
