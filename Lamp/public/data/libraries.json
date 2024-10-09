@@ -86,6 +86,24 @@
         },
         {
             "id": 15,
+            "title": "Driver.js",
+            "url": "https://driverjs.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728490835/driverjs.webp"
+        },
+        {
+            "id": 16,
+            "title": "lightGallery",
+            "url": "https://www.lightgalleryjs.com/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728490588/lightgallery.webp"
+        },
+        {
+            "id": 17,
+            "title": "Framer Motion",
+            "url": "https://www.framer.com/motion/",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728490736/framermotion.webp"
+        },
+        {
+            "id": 18,
             "title": "Emojify",
             "url": "https://open-emojify.github.io/emojify/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728428423/openemojify.webp"
