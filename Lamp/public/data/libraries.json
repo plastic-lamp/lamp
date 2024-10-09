@@ -76,13 +76,13 @@
             "id": 13,
             "title": "Theme Toggles",
             "url": "https://toggles.dev/",
-            "image_url": "https://toggles.dev/theme-toggles.png"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728480905/theme-toggles.webp"
         },
         {
             "id": 14,
             "title": "Lit",
             "url": "https://lit.dev/",
-            "image_url": "https://lit.dev/images/logo-whitebg-padded-1600x800.png"
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728480905/lit.webp"
         },
         {
             "id": 15,
