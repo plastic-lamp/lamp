@@ -80,6 +80,12 @@
         },
         {
             "id": 14,
+            "title": "Lit",
+            "url": "https://lit.dev/",
+            "image_url": "https://lit.dev/images/logo-whitebg-padded-1600x800.png"
+        },
+        {
+            "id": 15,
             "title": "Emojify",
             "url": "https://open-emojify.github.io/emojify/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728428423/openemojify.webp"
