@@ -2,7 +2,7 @@
 <div align="left">Lamp is a curated collection of open-source web assets for developers.</div>
 <div align="left">
 
-[Website](https://open-emojify.github.io/emojify/)  
+[Website](https://plastic-lamp.netlify.app/)  
 
 ## License
 
