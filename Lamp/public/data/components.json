@@ -89,6 +89,12 @@
             "title": "Bootstrap",
             "url": "https://getbootstrap.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728483423/bootstrap.webp"
+        },
+        {
+            "id": 16,
+            "title": "vueframe",
+            "url": "https://github.com/vueframe/vueframe",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1732476262/vueframe.webp"
         }
     ]
 }
