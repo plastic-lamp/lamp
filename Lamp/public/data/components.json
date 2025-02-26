@@ -2,96 +2,102 @@
     "components": [
         {
             "id": 1,
+            "title": "embedz",
+            "url": "https://github.com/embedz/embedz",
+            "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1740596649/embedz_.webp"
+        },
+        {
+            "id": 2,
             "title": "shadcn/ui",
             "url": "https://ui.shadcn.com",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414217/shadcn.webp"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Radix UI",
             "url": "https://www.radix-ui.com",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414455/radix.webp"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "NextUI",
             "url": "https://nextui.org",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414090/nextui.webp"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Float UI",
             "url": "https://floatui.com",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728413487/floatui.webp"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Headless UI",
             "url": "https://headlessui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728413656/headlessui.webp"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Sonner",
             "url": "https://sonner.emilkowal.ski/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412210/sonner.webp"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Melt UI",
             "url": "https://melt-ui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728413582/meltui.webp"
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "Magic UI",
             "url": "https://magicui.design/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728412547/magicui.webp"
         },
         {
-            "id": 9,
+            "id": 10,
             "title": "Hyper UI",
             "url": "https://www.hyperui.dev/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728414593/hyperui.webp"
         },
         {
-            "id": 10,
+            "id": 11,
             "title": "UIkit",
             "url": "https://getuikit.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728419902/ui-kit.webp"
         },
         {
-            "id": 11,
+            "id": 12,
             "title": "grommet",
             "url": "https://v2.grommet.io/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728420398/grommet.webp"
         },
         {
-            "id": 12,
+            "id": 13,
             "title": "Pico CSS",
             "url": "https://picocss.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728421574/picocss.webp"
         },
         {
-            "id": 13,
+            "id": 14,
             "title": "Chakra UI",
             "url": "https://v2.chakra-ui.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728421750/chakraui.webp"
         },
         {
-            "id": 14,
+            "id": 15,
             "title": "Tailwind CSS",
             "url": "https://tailwindcss.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728426816/tailwindcss.webp"
         },
         {
-            "id": 15,
+            "id": 16,
             "title": "Bootstrap",
             "url": "https://getbootstrap.com/",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1728483423/bootstrap.webp"
         },
         {
-            "id": 16,
+            "id": 17,
             "title": "vueframe",
             "url": "https://github.com/vueframe/vueframe",
             "image_url": "https://res.cloudinary.com/plastic-lamp/image/upload/v1732476262/vueframe.webp"
